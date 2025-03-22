@@ -1,0 +1,20 @@
+[package]
+name = "breachops"
+description = """
+Stub Description
+"""
+version = "0.1.0"
+edition = "2024"
+
+authors.workspace = true
+categories.workspace = true
+repository.workspace = true
+homepage.workspace = true
+license-file.workspace = true
+
+[dependencies]
+anyhow = "1.0.97"
+
+[[bin]]
+name    = "bops"
+path    = "src/main.rs"

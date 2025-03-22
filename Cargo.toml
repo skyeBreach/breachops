@@ -1,7 +1,16 @@
-[package]
-name = "breachops"
-version = "0.1.0"
-edition = "2024"
+[workspace]
+resolver        = "3"
+default-members = [ "breachops" ]
+members         = [
+    "breachops",
+    "breachops-utils",
+]
 
-[dependencies]
-anyhow = "1.0.97"
+[workspace.package]
+authors     = [
+    "skyeBreach <skyebreach@proton.me>"
+]
+categories = ["command-line-utilities"]
+repository = "https://github.com/skyeBreach/breachops"
+homepage = "https://github.com/skyeBreach/breachops"
+license-file = "LICENSE"
