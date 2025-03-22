@@ -20,6 +20,7 @@ build/
 out/
 
 # Rust and Cargo
+bin/
 target/
 debug/
 *.pdb
